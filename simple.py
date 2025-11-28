@@ -10,8 +10,7 @@ else:
     time = 3.0     
     print("No input provided — using default values:")
 simple_interest = (principal * rate * time) / 100
-print("\n----- SIMPLE INTEREST CALCULATOR -----")
 print("Principal:", principal)
-print("Rate of Interest (%):", rate)
-print("Time (years):", time)
+print("Rate of Interest :", rate)
+print("Time :", time)
 print("Simple Interest:", simple_interest)
